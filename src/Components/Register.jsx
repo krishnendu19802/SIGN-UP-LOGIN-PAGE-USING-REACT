@@ -52,7 +52,7 @@ export default function Register() {
         arr.push(user)
         console.log(arr)
         localStorage.setItem("userdetails",JSON.stringify(arr))
-        setShow(prev=>{return {...prev,val:true,bg:'success',message:'Registered successfullty'}})
+        setShow(prev=>{return {...prev,val:true,bg:'success',message:'Registered successfully'}})
 // 12345678
     }
 
